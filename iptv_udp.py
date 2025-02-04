@@ -205,7 +205,11 @@ def main():
             isp_en = "ctcc"
             asn = "4134"
             others = '&& city="Chengdu" '
-        elif isp == "电信" and province_en != "sichuang":
+        elif isp == "电信" and province_en == "shanghai":
+            org = "Chinanet"
+            isp_en = "ctcc"
+            asn = "4812"
+        elif isp == "电信" and province_en != "sichuang" and province_en != "shanghai" :
             org = "Chinanet"
             isp_en = "ctcc"
             asn = "4134"
@@ -216,9 +220,6 @@ def main():
         elif isp == "联通" and province_en == "beijing":
             asn = "4808"
             isp_en = "cucc"
-        elif isp == "电信" and province_en == "shanghai":
-            asn = "4812"
-            isp_en = "ctcc"
         else:
             asn = ""
             org = ""
