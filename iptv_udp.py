@@ -216,6 +216,9 @@ def main():
         elif isp == "联通" and province_en == "beijing":
             asn = "4808"
             isp_en = "cucc"
+        elif isp == "电信" and province_en == "shanghai":
+            asn = "4812"
+            isp_en = "ctcc"
         else:
             asn = ""
             org = ""
