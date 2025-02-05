@@ -187,6 +187,9 @@ def main():
                 if "udp://" in first_line:
                     mcast = first_line.split("udp://")[1].split(" ")[0]
                     keywords.append(province_isp + "_" + mcast)
+                elif "rtp://" in first_line:
+                    mcast = first_line.split("rtp://")[1].split(" ")[0]
+                    keywords.append(province_isp + "_" + mcast)
         except FileNotFoundError:
             # 如果文件不存在，则捕获 FileNotFoundError 异常并打印提示信息
             print(f"文件 '{province_isp}.txt' 不存在. 跳过此文件.")
