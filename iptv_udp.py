@@ -85,36 +85,48 @@ def get_tonkiang(key_words):
 
 # 生成文件
 def gen_files(valid_ips, province, isp, province_en, isp_en):
-    
-    # 生成节目列表 省份_运营商.txt
-    print(f"正在处理 {province}{isp} 的 IPTV 列表...")
-    print(f"找到的有效 IP 地址: {valid_ips}")
+    """
+    读取原始的 IPTV 频道列表，替换 udp:// 和 rtp:// 地址，并保存为新的文件。
+    """
 
+    print(f"🔹 正在处理 {province} {isp} 的 IPTV 列表...")
+    print(f"✅ 找到的有效 IP 地址: {valid_ips}")
+
+    # 原始 IPTV 文件（包含 udp:// 或 rtp://）
     udp_filename = f'files/{province}_{isp}.txt'
+    # 生成的输出文件
     txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
-    
-    # 生成节目列表 省份运营商.txt
-    index = 0
-    with open(udp_filename, 'r', encoding='utf-8') as file:
-        data = file.read()
-        
-    with open(txt_filename, 'w', encoding='utf-8') as new_file:
-        new_file.write(f'{province}{isp},#genre#\n')
-        
-        for url in valid_ips:
-            if index < 3:
-                if "udp://" in data:
-                    new_data = data.replace("udp://", f"{url[0]}/udp/")
-                elif "rtp://" in data:
-                    new_data = data.replace("rtp://", f"{url[0]}/rtp/")   
-                    
-                new_file.write(new_data)
-                new_file.write('\n')
-                index += 1
-            else:
-                continue
 
-    print(f'已生成播放列表，保存至{txt_filename}')
+    # 读取原始 IPTV 频道列表
+    with open(udp_filename, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+
+    # 打开新的文件进行写入
+    with open(txt_filename, 'w', encoding='utf-8') as new_file:
+        # 写入 IPTV 标题
+        new_file.write(f"{province} {isp},#genre#\n")
+
+        # 遍历 IPTV 频道列表，并替换链接
+        for line in lines:
+            new_line = line.strip()
+            modified = False
+
+            # 逐个使用有效 IP 替换 IPTV 频道 URL
+            for ip in valid_ips:
+                if "udp://" in new_line:
+                    new_line = new_line.replace("udp://", f"{ip}/udp/")
+                    modified = True
+                    break  # 替换成功后跳出循环
+                elif "rtp://" in new_line:
+                    new_line = new_line.replace("rtp://", f"{ip}/rtp/")
+                    modified = True
+                    break  # 替换成功后跳出循环
+
+            # 只写入被替换过的 IPTV 频道
+            if modified:
+                new_file.write(new_line + '\n')
+
+    print(f'✅ 生成的 IPTV 播放列表已保存至：{txt_filename}')
 
 
 def filter_files(path, ext):
