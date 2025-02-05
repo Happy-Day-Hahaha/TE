@@ -113,7 +113,12 @@ def gen_files(valid_ips, province, isp, province_en, isp_en):
 
             # 逐个使用有效 IP 替换 IPTV 频道 URL
             for ip in valid_ips:
+                
+                if isinstance(ip, list):  # 如果 ip 是列表，取第一个元素
+                    ip = ip[0]  # 获取列表中的第一个 IP 地址
+                    
                 ip = ip.strip("[]'")  # 去掉多余的 '[' 和 ']' 和引号 ''
+                
                 if "udp://" in new_line:
                     new_line = new_line.replace("udp://", f"{ip}/udp/")
                     modified = True
