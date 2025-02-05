@@ -209,7 +209,7 @@ def main():
             org = "Chinanet"
             isp_en = "ctcc"
             asn = "4812"
-        elif isp == "电信" and province_en != "sichuang" and province_en != "shanghai" :
+        elif isp == "电信" and province_en != "sichuang" and province_en != "shanghai":
             org = "Chinanet"
             isp_en = "ctcc"
             asn = "4134"
@@ -224,6 +224,8 @@ def main():
             asn = ""
             org = ""
 
+        print(f"ASN: {asn}, ISP: {isp}, ORG: {org}, Province (EN): {province_en}")
+        
         current_time = datetime.now()
         timeout_cnt = 0
         result_urls = set()
