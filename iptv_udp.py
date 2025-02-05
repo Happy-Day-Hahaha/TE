@@ -85,18 +85,29 @@ def get_tonkiang(key_words):
 
 # 生成文件
 def gen_files(valid_ips, province, isp, province_en, isp_en):
+    
+    # 生成节目列表 省份_运营商.txt
+    print(f"正在处理 {province}{isp} 的 IPTV 列表...")
+    print(f"找到的有效 IP 地址: {valid_ips}")
+
+    udp_filename = f'files/{province}_{isp}.txt'
+    txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
+    
     # 生成节目列表 省份运营商.txt
     index = 0
-    print(valid_ips)
-    udp_filename = f'files/{province}_{isp}.txt'
     with open(udp_filename, 'r', encoding='utf-8') as file:
         data = file.read()
-    txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
+        
     with open(txt_filename, 'w', encoding='utf-8') as new_file:
         new_file.write(f'{province}{isp},#genre#\n')
+        
         for url in valid_ips:
             if index < 3:
-                new_data = data.replace("udp://", f"{url[0]}/udp/")
+                if "udp://" in data:
+                    new_data = data.replace("udp://", f"{url[0]}/udp/")
+                elif "rtp://" in data:
+                    new_data = data.replace("rtp://", f"{url[0]}/rtp/")   
+                    
                 new_file.write(new_data)
                 new_file.write('\n')
                 index += 1
