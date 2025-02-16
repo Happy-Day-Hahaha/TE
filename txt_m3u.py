@@ -16,14 +16,14 @@ def txt_to_m3u(input_file, output_file):
             if "," in line: # 防止文件里面缺失“,”号报错
             #if line:
                 # 检查是否是genre行
-                channel_name, channel_url = line.split(',', 1)
+                channel_name, channel_logo, channel_url = line.split(',', 1)
                 if channel_url == '#genre#':
                     genre = channel_name
                     print(genre)
                 else:
                     # 将频道信息写入m3u文件
                     # f.write(f'#EXTINF:-1 group-title="{genre}",{channel_name}\n')
-                    f.write(f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="" group-title="{genre}",{channel_name}\n')                    
+                    f.write(f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="{channel_logo}" group-title="3 地方",{channel_name}\n')                    
                     f.write(f'{channel_url}\n')
         print(f"写入文件结束。")
 
