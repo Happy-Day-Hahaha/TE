@@ -19,7 +19,7 @@ def txt_to_m3u(input_file, output_file):
                 if len(parts) < 4:
                     print(f"警告：忽略格式不正确的行：{line}")
                     continue
-                tvg_name_id, channel_logo, channel_url, channel_name = parts
+                tvg_name_id, channel_logo, channel_name, channel_url = parts
                 
             #if line:
                 # 检查是否是genre行
