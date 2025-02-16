@@ -16,7 +16,7 @@ def txt_to_m3u(input_file, output_file):
             if "," in line: # 防止文件里面缺失“,”号报错
             #if line:
                 # 检查是否是genre行
-                tvg_name_id, channel_logo, channel_url, channel_name = line.split(',', 1)
+                tvg_name_id, channel_logo, channel_url, channel_name = line.split(',', 3)
                 if channel_url == '#genre#':
                     genre = channel_name
                     print(genre)
