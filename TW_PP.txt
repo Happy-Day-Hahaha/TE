@@ -1,5 +1,0 @@
-TVB功夫台,http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
-TVB星河频道,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
-TVB娱乐新闻台,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
-TVB泰国台,http://v2h.jdshipin.com/tvb_thai/tvb_thai.stream/playlist.m3u8
-神州新闻台,http://v2h.jdshipin.com/mainland/mainland.stream/chunklist.m3u8
