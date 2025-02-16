@@ -9,7 +9,7 @@ on:
       - main
     paths-ignore:
       - 'files/**'
-
+      - '**'
 jobs:
   build:
     runs-on: ubuntu-latest
