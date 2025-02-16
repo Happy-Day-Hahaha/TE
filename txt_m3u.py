@@ -14,9 +14,15 @@ def txt_to_m3u(input_file, output_file):
         for line in lines:
             line = line.strip()
             if "," in line: # 防止文件里面缺失“,”号报错
+
+                parts = line.split(',', 3)
+                if len(parts) < 4:
+                    print(f"警告：忽略格式不正确的行：{line}")
+                    continue
+                tvg_name_id, channel_logo, channel_url, channel_name = parts
+                
             #if line:
                 # 检查是否是genre行
-                tvg_name_id, channel_logo, channel_url, channel_name = line.split(',', 3)
                 if channel_url == '#genre#':
                     genre = channel_name
                     print(genre)
