@@ -1,51 +1,51 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="3 地方",11京-文艺
-http://221.216.141.134:30002/rtp/239.3.1.242:8000
+http://123.120.4.128:8012/rtp/239.3.1.242:8000
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV科教.png" group-title="3 地方",11京-纪实科教
-http://221.216.141.134:30002/rtp/239.3.1.115:8000
+http://123.120.4.128:8012/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV影视.png" group-title="3 地方",11京-影视
-http://221.216.141.134:30002/rtp/239.3.1.158:8000
+http://123.120.4.128:8012/rtp/239.3.1.158:8000
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png" group-title="3 地方",11京-财经
-http://221.216.141.134:30002/rtp/239.3.1.116:8000
+http://123.120.4.128:8012/rtp/239.3.1.116:8000
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png" group-title="3 地方",11京-生活
-http://221.216.141.134:30002/rtp/239.3.1.117:8000
+http://123.120.4.128:8012/rtp/239.3.1.117:8000
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="3 地方",11京-新闻
-http://221.216.141.134:30002/rtp/239.3.1.159:8000
+http://123.120.4.128:8012/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo=" http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="3 地方",11京-卡酷少儿
-http://221.216.141.134:30002/rtp/239.3.1.189:8000
+http://123.120.4.128:8012/rtp/239.3.1.189:8000
 #EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo=" https://iptv-pro.github.io/logo/BTV%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="3 地方",11京-体育休闲
-http://221.216.141.134:30002/rtp/239.3.1.243:8000
+http://123.120.4.128:8012/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="北京国际频道" tvg-name="北京国际频道" tvg-logo=" https://iptv-pro.github.io/logo/%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85.png" group-title="3 地方",11京-国际
-http://221.216.141.134:30002/rtp/239.3.1.235:8000
+http://123.120.4.128:8012/rtp/239.3.1.235:8000
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="3 地方",31沪-新闻综合
-http://58.37.211.110:9200/rtp/239.45.3.209:5140
+http://222.64.233.176:9999/rtp/239.45.3.209:5140
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F.png" group-title="3 地方",31沪-第一财经
-http://58.37.211.110:9200/rtp/239.45.3.211:5140
+http://222.64.233.176:9999/rtp/239.45.3.211:5140
 #EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E9%83%BD%E5%B8%82.png" group-title="3 地方",31沪-都市
-http://58.37.211.110:9200/rtp/239.45.3.236:5140
+http://222.64.233.176:9999/rtp/239.45.3.236:5140
 #EXTINF:-1 tvg-id="上视东方影视" tvg-name="上视东方影视" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E5%BD%B1%E8%A7%86.png" group-title="3 地方",31沪-东方影视
-http://58.37.211.110:9200/rtp/239.45.3.237:5140
+http://222.64.233.176:9999/rtp/239.45.3.237:5140
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://iptv-pro.github.io/logo/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2.png" group-title="3 地方",31沪-五星体育
-http://58.37.211.110:9200/rtp/239.45.3.210:5140
+http://222.64.233.176:9999/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://iptv-pro.github.io/logo/%E5%8C%97%E4%BA%AC%E5%93%88%E5%93%88%E7%82%AB%E5%8A%A8.png" group-title="3 地方",31沪-哈哈炫动
-http://58.37.211.110:9200/rtp/239.45.1.55:5140
+http://222.64.233.176:9999/rtp/239.45.1.55:5140
 #EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E6%95%99%E8%82%B2%E7%94%B5%E8%A7%86%E5%8F%B0.png" group-title="3 地方",31沪-上海教育
-http://58.37.211.110:9200/rtp/239.45.0.13:5140
+http://222.64.233.176:9999/rtp/239.45.0.13:5140
 #EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://iptv-pro.github.io/logo/%E9%87%91%E8%89%B2%E5%AD%A6%E5%A0%82.png" group-title="3 地方",31沪-金色学堂
-http://58.37.211.110:9200/rtp/239.45.0.9:5140
+http://222.64.233.176:9999/rtp/239.45.0.9:5140
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%9C%E6%96%B9%E8%B4%A2%E7%BB%8F.png" group-title="3 地方",31沪-东方财经
-http://58.37.211.110:9200/rtp/239.45.0.17:5140
+http://222.64.233.176:9999/rtp/239.45.0.17:5140
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://iptv-pro.github.io/logo/%E6%B3%95%E6%B2%BB%E5%A4%A9%E5%9C%B0.png" group-title="3 地方",31沪-法治天地
-http://58.37.211.110:9200/rtp/239.45.1.46:5140
+http://222.64.233.176:9999/rtp/239.45.1.46:5140
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://iptv-pro.github.io/logo/%E4%B9%90%E6%B8%B8.png" group-title="3 地方",31沪-乐游
-http://58.37.211.110:9200/rtp/239.45.3.135:5140
+http://222.64.233.176:9999/rtp/239.45.3.135:5140
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://iptv-pro.github.io/logo/%E5%8A%A8%E6%BC%AB%E7%A7%80%E5%9C%BA.png" group-title="3 地方",31沪-动漫秀场
-http://58.37.211.110:9200/rtp/239.45.3.134:5140
+http://222.64.233.176:9999/rtp/239.45.3.134:5140
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://iptv-pro.github.io/logo/%E9%83%BD%E5%B8%82%E5%89%A7%E5%9C%BA.png" group-title="3 地方",31沪-都市剧场
-http://58.37.211.110:9200/rtp/239.45.3.136:5140
+http://222.64.233.176:9999/rtp/239.45.3.136:5140
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://iptv-pro.github.io/logo/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA.png" group-title="3 地方",31沪-欢笑剧场
-http://58.37.211.110:9200/rtp/239.45.3.196:5140
+http://222.64.233.176:9999/rtp/239.45.3.196:5140
 #EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E7%94%9F%E6%B4%BB%E6%97%B6%E5%B0%9A.png" group-title="3 地方",31沪-生活时尚
-http://58.37.211.110:9200/rtp/239.45.3.132:5140
+http://222.64.233.176:9999/rtp/239.45.3.132:5140
 #EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://iptv-pro.github.io/logo/%E6%B8%B8%E6%88%8F%E9%A3%8E%E4%BA%91.png" group-title="3 地方",31沪-游戏风云
-http://58.37.211.110:9200/rtp/239.45.3.131:5140
+http://222.64.233.176:9999/rtp/239.45.3.131:5140
