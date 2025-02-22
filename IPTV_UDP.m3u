@@ -1,22 +1,22 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="3 地方",11京-文艺
-http://222.129.33.127:58888/rtp/239.3.1.242:8000
+http://123.113.110.68:4022/rtp/239.3.1.242:8000
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV科教.png" group-title="3 地方",11京-纪实科教
-http://222.129.33.127:58888/rtp/239.3.1.115:8000
+http://123.113.110.68:4022/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV影视.png" group-title="3 地方",11京-影视
-http://222.129.33.127:58888/rtp/239.3.1.158:8000
+http://123.113.110.68:4022/rtp/239.3.1.158:8000
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png" group-title="3 地方",11京-财经
-http://222.129.33.127:58888/rtp/239.3.1.116:8000
+http://123.113.110.68:4022/rtp/239.3.1.116:8000
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png" group-title="3 地方",11京-生活
-http://222.129.33.127:58888/rtp/239.3.1.117:8000
+http://123.113.110.68:4022/rtp/239.3.1.117:8000
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo=" http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="3 地方",11京-新闻
-http://222.129.33.127:58888/rtp/239.3.1.159:8000
+http://123.113.110.68:4022/rtp/239.3.1.159:8000
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo=" http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="3 地方",11京-卡酷少儿
-http://222.129.33.127:58888/rtp/239.3.1.189:8000
+http://123.113.110.68:4022/rtp/239.3.1.189:8000
 #EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo=" https://iptv-pro.github.io/logo/BTV%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2.png" group-title="3 地方",11京-体育休闲
-http://222.129.33.127:58888/rtp/239.3.1.243:8000
+http://123.113.110.68:4022/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-id="北京国际频道" tvg-name="北京国际频道" tvg-logo=" https://iptv-pro.github.io/logo/%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85.png" group-title="3 地方",11京-国际
-http://222.129.33.127:58888/rtp/239.3.1.235:8000
+http://123.113.110.68:4022/rtp/239.3.1.235:8000
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="3 地方",31沪-新闻综合
 http://58.32.18.195:12345/rtp/239.45.3.209:5140
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%8A%E6%B5%B7%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F.png" group-title="3 地方",31沪-第一财经
